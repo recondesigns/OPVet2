@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Canvas } from './components/Canvas'
+import { BoothSelector } from './components/BoothSelector'
 
 const AppContainer = styled.div`
     width: 100%;
@@ -12,6 +13,7 @@ export default function App() {
     return (
         <AppContainer>
             <Canvas />
+            <BoothSelector />
         </AppContainer>
     )
 }

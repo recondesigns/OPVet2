@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import styled from 'styled-components'
 import { fabric } from 'fabric'
-import { booths } from './utils'
+import { booths } from '../../dummyData'
 import './canvas.css'
 
 const CanvasContainer = styled.div`
