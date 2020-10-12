@@ -1,1 +1,0 @@
-export { defaul as GoogleButton } from './GoogleButton'
